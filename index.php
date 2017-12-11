@@ -1,7 +1,7 @@
 <?php
 //Criado por Douglas Segatto
 //O código com o maior número de POGs já visto.
-ob_flush();
+set_time_limit(false);
 header('Content-type: text/html; charset=iso-8859-1');
 $numero_paginas = 11;
 $nome = array();
@@ -31,7 +31,6 @@ $convert_b = array(
 	"75" => "8",
 	"74" => "9"
 );
-set_time_limit(false);
 
 for ($y = 0; $y < $numero_paginas; $y++)
 {
